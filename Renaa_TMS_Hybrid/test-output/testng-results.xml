@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Issue is raised successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-10T13:35:34 IST" name="Default suite" finished-at="2023-07-10T13:38:03 IST" duration-ms="149723">
+    <groups>
+      <group name="regression">
+        <method signature="RaiseIssueTest.create2()[pri:0, instance:com.Tms.RaiseIssueTest@7e07db1f]" name="create2" class="com.Tms.RaiseIssueTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="RaiseIssueTest.create2()[pri:0, instance:com.Tms.RaiseIssueTest@7e07db1f]" name="create2" class="com.Tms.RaiseIssueTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-07-10T13:35:34 IST" name="Default test" finished-at="2023-07-10T13:38:03 IST" duration-ms="149723">
+      <class name="com.Tms.RaiseIssueTest">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:com.Tms.RaiseIssueTest@7e07db1f]" started-at="2023-07-10T13:35:33 IST" name="connectDB" finished-at="2023-07-10T13:35:34 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.Tms.RaiseIssueTest@7e07db1f]" started-at="2023-07-10T13:35:34 IST" name="launchBrowser" finished-at="2023-07-10T13:36:07 IST" duration-ms="33350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.Tms.RaiseIssueTest@7e07db1f]" started-at="2023-07-10T13:36:07 IST" name="loginToApp" finished-at="2023-07-10T13:36:10 IST" duration-ms="3518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="create2()[pri:0, instance:com.Tms.RaiseIssueTest@7e07db1f]" started-at="2023-07-10T13:36:10 IST" name="create2" finished-at="2023-07-10T13:37:51 IST" duration-ms="100246" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Issue is raised successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- create2 -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.Tms.RaiseIssueTest@7e07db1f]" started-at="2023-07-10T13:37:51 IST" name="logoutFromApp" finished-at="2023-07-10T13:37:52 IST" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Tms.RaiseIssueTest@7e07db1f]" started-at="2023-07-10T13:37:52 IST" name="closeBrowser" finished-at="2023-07-10T13:38:03 IST" duration-ms="11434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.Tms.RaiseIssueTest@7e07db1f]" started-at="2023-07-10T13:38:04 IST" name="closeDB" finished-at="2023-07-10T13:38:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.Tms.RaiseIssueTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
